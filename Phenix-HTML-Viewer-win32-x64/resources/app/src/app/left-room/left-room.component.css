@@ -1,0 +1,63 @@
+   /* Set gray background color and 100% height */
+   .sidenav {
+    background-color: #4e73df;
+    height: 100%;
+    overflow-y: auto;
+    width: 99%;
+    /* min-height: 720px;
+    max-height: 720px; */
+
+    /* padding: 15px; */
+  }
+
+  #left-room-div{
+    height: 100%;
+    margin-right: 0px;
+  }
+
+  #divider:hover{
+    cursor: col-resize;
+  }
+
+  #divider{
+    width: 6px;
+    z-index: 2;
+    margin-left: -7px;
+  }
+  
+
+   
+
+      .e-list-text{
+        font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-weight: 700;
+        font-size: .85rem;
+        color: #fff;
+      }
+
+      .hide-tree-view{
+        display: none !important;
+      }
+
+
+
+
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+      

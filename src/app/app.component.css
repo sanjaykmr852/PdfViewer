@@ -1,0 +1,25 @@
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    
+    /* .row.content {height: 100%;} */
+    
+    #left-room-parent-div{
+        padding-left: 0px;
+    }
+    
+    .remove-left-padding{
+        padding-left: 0px;
+    }
+       
+  .white-background{
+    background-color: #fff!important;
+    border-bottom: 3px #dd3d31 solid;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#next-button{
+    float : right;
+}
+
+#header-row{
+    width: 100%;
+}

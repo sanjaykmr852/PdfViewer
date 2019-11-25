@@ -1,0 +1,13 @@
+<div id="left-room-div" class="row">
+<div class="sidenav col-sm-11.75">
+
+    <ejs-treeview id="tree" [(fields)]="dataMap" (nodeExpanding)="onNodeExpanding($event)"
+    (nodeClicked)="onNodeClicked($event)" (nodeExpanded)="onNodeExpanded($event)" 
+    (nodeCollapsing)="onNodeCollapsed($event)" #treeView></ejs-treeview >   
+
+  </div>
+  <div id ="divider" (drag)="onDraggingRightRoom($event)" (dragstart)="onDragStartRightRoom($event)"
+  (dragend)="onDragEndRightRoom($event)">
+
+  </div>
+</div>

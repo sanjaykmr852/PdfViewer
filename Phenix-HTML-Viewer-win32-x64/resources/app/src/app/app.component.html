@@ -1,0 +1,35 @@
+  
+
+<nav id="navigation-bar" class="navbar navbar-dark bg-primary white-background">
+    <div class="container-fluid">
+      <div id="header-row" class="row">
+        <div class="col-sm-3">
+          <div class="navbar-header">
+              <a class="navbar-brand">{{title}}</a>
+           </div>
+        </div>
+        <div *ngIf="false" class="col-sm-4">
+            <button type="button" id="back-button" class="btn btn-success">Back</button>
+        </div>    
+        <div *ngIf="false" class="col-sm-5">
+            <button type="button" id="next-button" class="btn btn-success">Next</button>
+        </div> 
+      </div>
+      </div>
+  </nav>
+
+<div class="container-fluid">    
+  <div id="content-div" class="row content" [ngStyle]="{'height': deviceHeight >0 ? deviceHeight +'px' : '100%'}">
+      <div id="left-room-parent-div" class="col-sm-3">
+        <app-left-room></app-left-room>
+      </div>
+
+      
+    <div id="right-room-parent-div" class="col-sm-9 remove-left-padding">
+       <app-right-room></app-right-room>          
+    </div>
+  </div>
+</div>
+
+
+
